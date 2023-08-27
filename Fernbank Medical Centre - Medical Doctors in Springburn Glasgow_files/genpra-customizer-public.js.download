@@ -1,0 +1,2 @@
+(function($){'use strict';const newFragment=document.createDocumentFragment();const PostThumbnails=document.querySelectorAll('.elementor-post__thumbnail__link')
+PostThumbnails.forEach(removeLinks);function removeLinks(PostThumbnails){newFragment.appendChild(PostThumbnails.firstChild);PostThumbnails.parentNode.replaceChild(newFragment,PostThumbnails);}})(jQuery);
